@@ -15,4 +15,6 @@ print("programming"[0:10:3])
 
 # Excercise ques
 # Ask uuser name and print it in reverse order
-print("Shivam"[::-1])# For reversing
+name = input("Enter your name:-")
+a = name[::-1] # For reversing name
+print(f"Reverse name is {a}.")
